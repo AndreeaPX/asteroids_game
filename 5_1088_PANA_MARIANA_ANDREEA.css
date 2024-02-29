@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+#canvasGame{
+	position: absolute;
+	border: 3px solid white;
+	width: 1000px;
+	height: 690px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
+
+body{
+	background: black;
+}
+
+.sidebar{
+	position: fixed;
+	width: 70px;
+	height: 100%;
+	background: #5A5A5A;
+	transition: 0.4s;
+	overflow: hidden;	
+}
+
+.sidebar:hover{
+	width: 200px;
+}
+
+.sidebar ul{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+}
+
+.sidebar ul li{
+	position: relative;
+	width: 100%;
+	list-style: none;
+}
+
+.sidebar ul li :hover{
+	background : grey;
+}
+
+.sidebar ul li a{
+	position: relative;
+	color: #fff;
+	display: block;
+	width: 100%;
+	display: flex;
+	text-decoration:none;
+
+}
+
+.sidebar ul li a .icon{
+	position: relative;
+	display: block;
+	min-width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+
+}
+
+.sidebar ul li a .icon .fa{
+	font-size: 30px;
+
+}
+
+.sidebar ul li a .title{
+	position: relative;
+	display: block;
+	padding: 0 10px;
+	height: 60px;
+	line-height: 60px;
+	text-align: start;
+}
