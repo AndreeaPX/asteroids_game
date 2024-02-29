@@ -1,5 +1,5 @@
 Joc Asteroids 
-Descriere: Realizarea unui joc similar cu Asteroids (https://en.wikipedia.org/wiki/Asteroids_(video_game)) utilizând controlul de tip <canvas>.  
+Descriere: Realizarea unui joc similar cu Asteroids (https://en.wikipedia.org/wiki/Asteroids_(video_game)) utilizând controlul de tip canvas.  
 
 Exemplu: https://m1el.github.io/wasm-asteroids/demo/demo.html , https://www.echalk.co.uk/amusements/Games/asteroidsClassic/ateroids.html 
  
